@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splitter_grad_start">#000000</color>
+    <color name="splitter_grad_end">#000000</color>
+    <color name="splitter_grad_center">#97CF4D</color>
+</resources>

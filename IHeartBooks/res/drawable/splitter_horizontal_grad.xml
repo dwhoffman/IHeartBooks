@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+        
+        <gradient
+            android:angle="0"
+            android:startColor="@color/splitter_grad_start"
+            android:centerColor="@color/splitter_grad_center"
+            android:endColor="@color/splitter_grad_end" />
+
+</shape>

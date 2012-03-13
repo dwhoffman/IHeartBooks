@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <ImageView android:id="@+id/searchItemImage"
+        android:contentDescription="@string/search_item_thumb_descript"
+        android:scaleType="fitCenter"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView android:id="@+id/searchItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <TextView android:id="@+id/searchItemDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

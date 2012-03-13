@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HeaderText" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="HorizontalSplitter">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+		<item name="android:background">@drawable/splitter_horizontal_grad</item>
+		<item name="android:paddingTop">3px</item>
+		<item name="android:paddingBottom">3px</item>
+    </style>
+    <style name="EditTextGreenBorder">
+        <item name="android:background">@drawable/edittext_custom_selector</item>
+    </style>
+</resources>
